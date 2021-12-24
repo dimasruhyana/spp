@@ -1,0 +1,2 @@
+query kelas:
+select nama_kelas, nama_kk from kelas k join kompetensi_keahlian kk on k.id_kk=kk.id_kk;
